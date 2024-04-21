@@ -1,0 +1,20 @@
+.head-image{
+    height: 70vh;
+    width: 100%;
+    object-fit: fill;
+    margin-top: -56px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .head-image {
+        height: 50vh; /* Adjust the height for smaller screens */
+    }
+}
+
+/* Additional media queries for different screen sizes if needed */
+@media screen and (max-width: 480px) {
+    .head-image {
+        height: 30vh; /* Adjust the height for even smaller screens */
+    }
+}

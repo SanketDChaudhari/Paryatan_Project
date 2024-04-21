@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Orbitron&family=Rajdhani&display=swap');
+.carousel-style{
+    margin-top: -56px;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.carousel-item{
+    object-fit: scale-down;
+}
+
+.carousel-content{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.255);
+    
+    /* text-shadow: #282c34 1px 2px; */
+}
+.carousel-content h1{
+    font-family: 'Gabarito', cursive;
+    font-size: 70px;
+    color: white;
+}
+.carousel-content h4{
+    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media only screen and (max-width: 768px) {
+    .carousel-content h1 {
+        font-size: 40px;
+    }
+
+    .carousel-content h4 {
+        font-size: 18px;
+    }
+
+    .carousel-style{
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .carousel-content{
+        height: 50vh;
+        width: 100vw;
+    }
+}

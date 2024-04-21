@@ -1,0 +1,64 @@
+
+/* Try.js */
+.image-container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #039682; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    overflow: hidden;
+    margin-left: -10vw;
+  }
+  
+  .mapping-box{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: relative;
+    transition: all 0.3s ease-out;
+  }
+  
+  .size-image{
+    width: 18vw;
+    height: 25vh;
+    position: absolute;
+  }
+  
+  .size-image:nth-child(1){
+    transform: translate(100%, -50%) rotate(0deg);
+  }
+  .size-image:nth-child(2){
+    transform: translate(80% , -180%) rotate(-30deg);
+  }
+  .size-image:nth-child(3){
+    transform: translate(20% , -280%) rotate(-60deg);
+  }
+  .size-image:nth-child(4){
+    transform: translate(-65% , -315%) rotate(-90deg);
+  }
+  .size-image:nth-child(5){
+    transform: translate(-150% , -280%) rotate(-120deg);
+  }
+  .size-image:nth-child(6){
+    transform: translate(-210% , -180%) rotate(-150deg);
+  }
+  .size-image:nth-child(7){
+    transform: translate(-230% , -50%) rotate(-180deg);
+  }
+  .size-image:nth-child(8){
+    transform: translate(-210% , 80%) rotate(-210deg);
+  }
+  .size-image:nth-child(9){
+    transform: translate(-150% , 180%) rotate(-240deg);
+  }
+  .size-image:nth-child(10){
+    transform: translate(-65% , 215%) rotate(-270deg);
+  }
+  .size-image:nth-child(11){
+    transform: translate(20% , 180%) rotate(-300deg);
+  }
+  .size-image:nth-child(12){
+    transform: translate(80% , 80%) rotate(-330deg);
+  }
+  
